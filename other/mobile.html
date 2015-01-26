@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE">
+<script src="js/v.htm" charset="utf-8">
+
+</script><script src="js/hm.js"></script><script>function FileManagerClass() { return this.bad = null, this.root = "http://s.lietou-static.com/", this.cache = {}, this.init(), this } FileManagerClass.prototype.init = function () { return /(^|\s|;)cdnbad\s*=\s*1($|\s|;)/.test(document.cookie) ? this.bad = !0 : document.write(unescape('%3Cscript src="' + this.root + 'js/cdntest.js?' + ~(-new Date() / 6e5) + '" type="text/javascript"%3E%3C/script%3E')), this }, FileManagerClass.prototype.fetchCDN = function () { var t; return null === this.bad && (t = new Date, t.setTime(t.getTime() + 864e5), document.cookie = "cdnbad=1;expires=" + t.toGMTString() + ";path=/;domain=liepin.com", this.bad = !0, this.root = "http://i.s.lietou-static.com/"), this }, FileManagerClass.prototype.get = function () { var t, e, s, i = arguments; for (s = 0; s < i.length; s++) e = 0 === i[s].indexOf("http") ? i[s] : this.root + (0 === i[s].indexOf("/") ? i[s].substring(1) : i[s]), this.cache[e] || (this.cache[e] = !0, t = i[s].substring(i[s].lastIndexOf(".") + 1), -1 !== t.indexOf("?") && (t = t.substring(0, t.indexOf("?"))), "css" === t ? document.write(unescape('%3Clink href="' + e + '" rel="stylesheet" type="text/css"/%3E')) : "js" === t && document.write(unescape('%3Cscript src="' + e + '"%3E%3C/script%3E'))); return this }; var FileManager = new FileManagerClass;</script><script src="css/cdntest.js" type="text/javascript"></script>
+<script>FileManager.fetchCDN();</script>
+<!--[if lt IE 9]>
+<script type="text/javascript">FileManager.get('http://rp.s.lietou-static.com/article/beta2/js/html5shiv.js');</script>
+<![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript">FileManager.get('http://rp.s.lietou-static.com/article/beta2/js/DD_belatedPNG.js');</script>
+<script>DD_belatedPNG.fix('.pngfix');</script>
+<![endif]-->
+<script>FileManager.get('http://rp.s.lietou-static.com/p/beta2/css/common.css', 'http://rp.s.lietou-static.com/p/beta2/css/public.css', 'http://rp.s.lietou-static.com/p/beta2/js/jquery-1.7.1.min.js', 'http://rp.s.lietou-static.com/p/beta2/js/lt.core.js', 'http://rp.s.lietou-static.com/p/beta2/js/plugins/jquery.artDialog.js', 'http://rp.s.lietou-static.com/p/beta2/js/plugins/jquery.loadingui.js', 'http://rp.s.lietou-static.com/p/beta2/js/plugins/jquery.tipsui.js', 'http://rp.s.lietou-static.com/p/beta2/js/lt.apps.js');</script><link href="css/common.css" rel="stylesheet" type="text/css"><link href="css/public.css" rel="stylesheet" type="text/css"><script src="css/jquery-1.js"></script><script src="css/lt_002.js"></script><script src="css/jquery.js"></script><link href="css/default.css" type="text/css" rel="stylesheet"><script src="css/jquery_002.js"></script><script src="css/jquery_003.js"></script><script src="css/lt.js"></script>
+<!--<script type="text/javascript">
+    FileManager.get('http://rp.s.lietou-static.com/p/beta2/css/event/lpsecretary/style.css');
+</script>-->
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body id="secretary"><div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div style="cursor: move;" class="aui_title"></div><a class="aui_close" href="javascript:;">×</a></div></td></tr><tr><td style="display: none;" class="aui_icon"><div style="background: none repeat scroll 0% 0% transparent;" class="aui_iconBg"></div></td><td style="width: auto; height: auto;" class="aui_main"><div style="padding: 20px 25px;" class="aui_content"></div></td></tr><tr><td colspan="2" class="aui_footer"><div style="display: none;" class="aui_buttons"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td style="cursor: se-resize;" class="aui_se"></td></tr></tbody></table></div></div>
+  <div class="header">
+    <div class="wrap">
+      <a class="logo" href="#"><img src="../images/logo.png" class="pngfix" alt="诚聘网logo" height="40" width="110"/></a>
+      <ul class="nav">
+        <li>
+          <a class="active" href="javascript:;">客户端</a>
+        </li>
+        <li>
+          <a data-selector="touch-app" href="javascript:;">触屏版</a>
+          <div data-selector="app-tip" class="app-tip touch-tip">
+            <i class="arrow"></i>
+            <dl class="touch-tip-content clearfix">
+              <dt></dt>
+              <dd>
+                <p>手机浏览器访问m.liepin.com</p>
+                <ul>
+                  <li>无需下载，超省流量</li>
+                  <li>无需安装，想用马上用</li>
+                  <li>保存书签，一键即可访问</li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li>
+          <a data-selector="touch-app" href="javascript:;">微信版</a>
+          <div data-selector="app-tip" class="app-tip weixin-tip">
+            <i class="arrow"></i>
+            <dl class="weixin-tip-content clearfix">
+              <dt><img src="css/weixin.png"></dt>
+              <dd>
+                <p>微信扫一扫左侧二维码</p>
+                <ul>
+                  <li></li>
+                  <li>高薪职位一键订阅，每天贴心推送；</li>
+                  <li>投递进展实时跟踪，简历不再石沉大海！</li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="secretary-banner">
+    <div class="wrap">
+      <div class="secretary-banner-img"></div>
+      <div class="secretary-download">
+        <ul>
+          <li class="secretary-download-title"><h1>诚聘同道客户端</h1></li>
+          <li class="secretary-download-content">最高端、最专业的社交招聘应用，每天为您智能推荐职位，随时与猎头沟通，帮助您在职场更成功。</li>
+          <li class="secretary-download-app clearfix">
+            <a class="secretary-download-app-iphone" href="http://itunes.apple.com/cn/app/id540996859?mt=8"></a>
+            <a class="secretary-download-app-android" href="http://android-lpms.liepin.com/p/download/liepinmishu_www_latest.apk"></a>
+          </li>
+          <li class="secretary-download-code clearfix">
+            <p><img src="../images/app.jpg"><span>手机扫一扫，下载APP</span></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section section-left out" data-selector="section">
+    <div class="wrap">
+      <div class="secretary-wrap secretary-des1">
+        <p class="secretary-wrap-title">发现动态</p>
+        <p class="secretary-wrap-content">随时随地发布职场动态！招人才、找工作so easy，分享职场经验，打造职业品牌,你，为自己代言！</p>
+      </div>
+      <div class="secretary-wrap secretary-phone1">
+        <div class="secretary-phone1-img"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-right out" data-selector="section">
+    <div class="wrap">
+      <div class="secretary-wrap secretary-phone2">
+        <div class="secretary-phone2-tip1"></div>
+        <div class="secretary-phone2-tip2"></div>
+      </div>
+      <div class="secretary-wrap secretary-des2">
+        <p class="secretary-wrap-title">职位推荐</p>
+        <p class="secretary-wrap-content">高薪职位精准推荐，语音轻松搜索职位。</p>
+      </div>
+    </div>
+  </div>
+  <div class="section section-left out" data-selector="section">
+    <div class="wrap">
+      <div class="secretary-wrap secretary-des3">
+        <p class="secretary-wrap-title">人脉链接机会</p>
+        <p class="secretary-wrap-content">职场精英专属人脉社交平台，扩展职场人脉，发现更多机会。</p>
+      </div>
+      <div class="secretary-wrap secretary-phone3">
+        <div class="secretary-portrait1"></div>
+        <div class="secretary-portrait2"></div>
+        <div class="secretary-portrait3"></div>
+        <div class="secretary-portrait4"></div>
+        <div class="secretary-portrait5"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-right out" data-selector="section">
+    <div class="wrap">
+      <div class="secretary-wrap secretary-phone4">
+        <div class="secretary-phone4-tip"></div>
+      </div>
+      <div class="secretary-wrap secretary-des4">
+        <p class="secretary-wrap-title">一对一私信</p>
+        <p class="secretary-wrap-content">提供与职场好友实时沟通平台，与专业的猎头实时沟通</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul class="clearfix">
+      <li><a target="_blank" href="http://www.liepin.com/about/introduction.shtml">诚聘网简介</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.liepin.com/inshr/index.shtml">加入诚聘网</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.liepin.com/about/innovation.shtml">创新优势</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="user/agreement.html">用户协议</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.liepin.com/about/mediareports.shtml">媒体报道</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.liepin.com/about/about_us.shtml">联系我们</a></li>
+      <li>|</li>
+    </ul>
+    <p>京ICP备09083200号 京ICP证070419号 人才服务许可证:RC0710280 京公网安备11010802012824</p>
+    <p>Copyright©2000-2014 liepin.com All Rights Reserved</p>
+  </div>
+<script type="text/javascript">
+    FileManager.get('http://rp.s.lietou-static.com/p/beta2/js/event/lpsecretary/style.js');
+</script><script src="css/style.js"></script>
+<script type="text/javascript">window.FileManager && FileManager.get('http://rp.s.lietou-static.com/js/common/statistic/stat.js');</script><script src="css/stat.js"></script>
+<script>var _hmt = _hmt || []; (function () { var hm = document.createElement("script"); hm.src = "//hm.baidu.com/hm.js?a2647413544f5a04f00da7eee0d5e200"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();</script>
+
+<div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: none repeat scroll 0% 0% rgb(255, 255, 255);"></div></body>
+</html>
